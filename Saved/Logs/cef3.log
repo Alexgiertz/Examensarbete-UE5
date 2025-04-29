@@ -1,3 +1,17 @@
-[0426/180100.020:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Key not valid for use in specified state. (0x8009000B)
-[0426/180104.584:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../MANIFEST-000001: Unable to create sequential file (ChromeMethodBFE: 7::NewSequentialFile::1)
-[0426/180300.270:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0429/203935.508:ERROR:os_crypt_win.cc(93)] Failed to decrypt: Nyckeln går inte att använda i det angivna tillståndet. (0x8009000B)
+[0429/203937.657:ERROR:backend_impl.cc(1041)] Critical error found -8
+[0429/203937.658:ERROR:entry_impl.cc(1075)] No file for c10301dc
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:ERROR:entry_impl.cc(1075)] No file for c10301da
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:ERROR:entry_impl.cc(1075)] No file for c10301de
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.658:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/203937.665:WARNING:storage_block-inl.h(146)] Failed data load.
+[0429/204135.773:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
