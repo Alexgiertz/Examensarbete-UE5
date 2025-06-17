@@ -1,5 +1,7 @@
 # AI Assistant – Unreal Engine Component
 
+This project is a prototype for a personalised AI tutoring assistant built in Unreal Engine 5, powered by a locally hosted LLM.
+
 **IMPORTANT:** This repository only includes the Unreal Engine portion of the project.  
 To run the system, you must install and configure **EchoWhisperAPI**, created by Archangel4031. Follow the instructions below.
 
@@ -22,7 +24,7 @@ To change which LLM is used:
 1. In **Command Prompt / PowerShell**, enter:  
    `ollama pull [insert LLM version]`
 2. Navigate to:  
-   `\EchoWhisperAPI\EchoWhisperAPI\config.ini`
+   `EchoWhisperAPI\EchoWhisperAPI\config.ini`
 3. Under the `[LLM Query]` section, locate the line:  
    `selected_model = llama3.2:1b-instruct-q4_K_S`
 4. Modify it to:  
@@ -46,7 +48,7 @@ These predefined variables are used to tailor the assistant’s responses.
 
 - All components run **locally** – no external hosting or internet access is required.
 - **Text-to-speech (TTS)** is optional and can be toggled within the engine.
-- In order to input text after walking up to the **NPC** press **Shift + F1** to enable the mouse cursor.
+- After approaching the NPC, press Shift + F1 to enable the mouse cursor, then click the input field to enter text.
 
 ---
 
