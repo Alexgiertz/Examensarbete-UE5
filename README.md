@@ -35,7 +35,7 @@ To change which LLM is used:
 To view or modify the learner personalisation variables:
 
 - Open the **Unreal Engine 5 scene**.
-- Select the **NPC**.
+- Select the **NPC** (Default actor name is **BP_Pia1**).
 - In the **Details** panel, look for variable fields under the actor’s attributes.
 
 These predefined variables are used to tailor the assistant’s responses.
