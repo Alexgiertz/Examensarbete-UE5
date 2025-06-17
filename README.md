@@ -7,10 +7,10 @@ To run the system, you must install and configure **EchoWhisperAPI**, created by
 
 ## Setup Instructions for EchoWhisperAPI
 
-### Written tutorial:
+### Written tutorial by Archangel4031:
 [https://github.com/archangel4031/EchoWhisperAPI](https://github.com/archangel4031/EchoWhisperAPI)
 
-### Video tutorial:
+### Video tutorial by Archangel4031:
 [https://www.youtube.com/watch?v=0sRt-dmOQAg](https://www.youtube.com/watch?v=0sRt-dmOQAg)
 
 ---
