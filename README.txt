@@ -1,15 +1,9 @@
 ----------------------------------------------------------------------------------------------------------------------------------
 
-IMPORTANT: This repository only includes the Unreal Engine part of the project. To install EchoWhisperAPI (required) please
-follow the steps bellow
+IMPORTANT: This repository only includes the Unreal Engine portion of the project.
+To run the system, you must install and configure EchoWhisperAPI, created by Archangel4031. Follow the instructions below:
 
-----------------------------------------------------------------------------------------------------------------------------------
-
-To install and run EchoWhisperAPI (required for the project to work) please refer to the tutorials by Archangel4031 below.
-
-IMPORTANT: The tutorial uses the following LLM version: llama3.2:1b-instruct-q4_K_S
-When the program was demonstrated it used the following version: llama3.1:8b
-If you wish to use another LLM, instructions for this can be found further down in the document.
+Setup Instructions by Archangel4031:
 
 Written tutorial:
 https://github.com/archangel4031/EchoWhisperAPI
@@ -19,8 +13,30 @@ https://www.youtube.com/watch?v=0sRt-dmOQAg&ab_channel=FireAngel
 
 ----------------------------------------------------------------------------------------------------------------------------------
 
-If you wish to change LLM version, download the desired LLM through the CMD/Powershell by using "ollama pull [insert LLM version]"
-Locate the file "config.ini", which can be found in \EchoWhisperAPI\EchoWhisperAPI
-Under the section [LLM Query] edit the following line: "selected_model = llama3.1:8b" to "selected_model [insert LLM version]"
+If you wish to use another LLM version, follow these instructions:
+
+1. In Command Prompt/Powershell use the command: ollama pull [insert LLM version]
+
+2. Navigate to: \EchoWhisperAPI\EchoWhisperAPI\config.ini
+
+3. Under the [LLM Query] section, locate the line: selected_model = llama3.2:1b-instruct-q4_K_S
+
+4. Modify the line to: selected_model = [insert LLM version]
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+To view or modify the learner personalisation variables:
+
+Select the NPC in the Unreal Engine 5 scene.
+
+In the Details panel, locate the variable fields under the actor's attributes.
+
+These predefined variables are used to tailor the assistant’s responses to the learner.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+Make sure all components are run locally (no external hosting required).
+
+Text-to-speech is optional and can be toggled in the engine.
 
 ----------------------------------------------------------------------------------------------------------------------------------
