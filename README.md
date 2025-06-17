@@ -46,6 +46,7 @@ These predefined variables are used to tailor the assistant’s responses.
 
 - All components run **locally** – no external hosting or internet access is required.
 - **Text-to-speech (TTS)** is optional and can be toggled within the engine.
+- In order to input text after walking up to the **NPC** press **Shift + F1** to enable the mouse cursor.
 
 ---
 
